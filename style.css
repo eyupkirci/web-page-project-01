@@ -217,3 +217,5 @@ button {
     width: 100%;
   }
 }
+
+/* for github authentication: git config --global credential.helper wincred */
