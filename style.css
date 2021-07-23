@@ -48,12 +48,15 @@ img {
 
 
 .image-area {
+
+  height: 250px;
+  background-image: url(./img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("img/showcase.jpg");
-  height: 350px;
-  background-size: 100% 100%;
   text-align: center;
 }
 .image-area > h1 {
